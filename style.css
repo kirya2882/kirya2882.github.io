@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+}
+header{
+   border:solid 3px #4682B4;
+   border-radius: 10px;
+   background-color: #FF00FF;
+}
+.fps{
+    color: rgb(25, 180, 38);
+    font-family: Cambria;
+    background-color: rgb(49, 187, 211);
+    border: solid #00008B 3px;
+     margin: 300px;
+}
+footer{
+    border: solid 10px rgba(155, 89, 14, 0.329);
+    background-color: orange;
+}
+.lol{
+    color: rgba(228, 224, 24, 0.918);
+    background-color: #2F4F4F;
+}
+nav{
+    border: solid rgb(36, 233, 207) 9px;
+    background-color: rgb(0, 255, 213);
+    padding: 10px;
+    text-align: center;
+    
+
+}
+nav a{
+    text-decoration: none;
+    color: green;
+    border-radius: 5px;
+    border: solid rgb(9, 111, 228) 3px;
+    margin: 10px;
+}
+body{
+    background-color: #EEE8AA;
+}
+.good_a{
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid teal 2px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.xlop1 {
+    border: solid #E13863 3.5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.align{
+    text-align: center;
+}
+.biton{
+    text-decoration: none;
+    border: solid #00008B 3px;
+    background-color: rgb(106, 106, 241);
+    border-radius: 15px;
+    padding: 5px;
+}
