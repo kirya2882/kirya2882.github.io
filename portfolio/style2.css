@@ -54,7 +54,7 @@ nav{
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     color: yellow;
 }
 a{
@@ -65,6 +65,7 @@ a{
 }
 .ad1{
     color: yellow;
+    padding: 8px;
 }
 .t-a{
     text-align: center;
@@ -72,4 +73,25 @@ a{
 .h1{
     text-align: center;
     color: darkblue;
+}
+.socfoot{
+    color: #DAA520;
+
+}
+footer{
+    border: solid #F4A460 5px;
+    border-radius: 25px;
+    margin-top: 21px;
+}
+.social{
+    padding-right: 25px;
+}
+.img1{
+    border: solid darkblue 3px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.info{
+    border: dotted 3px darkblue;
+    border-radius: 20px;
 }
