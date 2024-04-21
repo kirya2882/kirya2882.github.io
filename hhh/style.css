@@ -1,0 +1,124 @@
+.html{
+    padding:0;
+    margin:0;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.9);
+    width:100%;
+    height:65px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:32px;
+    top:0;
+    left:0;
+    position:absolute;
+
+}
+.intoheader{
+    margin-left:33%;
+
+}
+.Hquiz{
+    color:#ffffff;
+
+    vertical-align:text-middle;
+    font-size:18px;
+    font-family:Manrope;
+    line-height:28px;
+    border-style:hidden;
+    outline:none;
+    width:67px;
+}
+.updates{
+    color:#969696;
+    vertical-align:text-middle;
+    font-size:14px;
+    font-family:Manrope;
+    text-decoration:None;
+    line-height:20px;
+    border-style:hidden;
+    width:49px;
+    transition: 0.3s;
+}
+.updates:hover{
+    color:#d1d1d1;
+}
+.pricing{
+    color:#969696;
+    vertical-align:text-middle;
+    font-size:14px;
+    font-family:Manrope;
+    text-decoration:None;
+    line-height:20px;
+    border-style:hidden;
+    width:49px;
+    transition: 0.3s;
+}
+.pricing:hover{
+    color:#d1d1d1;
+}
+.signin{
+    color:#ffffff;
+    vertical-align:text-middle;
+    font-size:14px;
+    font-family:Manrope;
+    text-decoration:None;
+    line-height:20px;
+    border-style:hidden;
+    width:48px;
+    transition: 0.3s;
+}
+.signin:hover{
+    color:#737272;
+}
+.headerHref{
+    height:20px;
+    width:509px;
+    padding-left:20%;
+    padding-right:451px;
+    padding-top:16px;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:32px;
+}
+.mainblock{
+    position:absolute;
+    top:65px;
+    display:flex;
+    justify-content:center;
+    background:rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height:60vh;
+    left: 0;
+}
+.whitecutter{
+    background:rgba(255,255,255,0.2);
+    height:1px;
+    width:40%;
+    top:60px;
+    left:30%;
+    position:absolute;
+}
+.mainh1{
+    color:white;
+    text-align:center;
+    font-family: "Inter", sans-serif;
+    font-weight:600;
+}
+.light{
+    background:rgba(51, 205, 199,.21);
+    height:200px;
+    width:200px;
+    border-radius:286px;
+    padding:0px;
+    left:526px;
+    position:relative;
+    box-shadow: 0 0 1000px rgba(51, 205, 199,1);
+
+
+
+}
