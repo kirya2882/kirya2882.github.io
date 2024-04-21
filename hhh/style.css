@@ -1,6 +1,7 @@
 .html{
     padding:0;
     margin:0;
+    max-width: 100%;
 }
 .header{
     background-color:rgba(0, 0, 0, 0.9);
@@ -13,12 +14,14 @@
     gap:32px;
     top:0;
     left:0;
-    position:absolute;
+    position:fixed;
 
 }
+.body{
+    max-width 100%;
+}
 .intoheader{
-    margin-left:33%;
-
+    padding-left:28%;
 }
 .Hquiz{
     color:#ffffff;
@@ -30,6 +33,8 @@
     border-style:hidden;
     outline:none;
     width:67px;
+
+
 }
 .updates{
     color:#969696;
@@ -41,6 +46,7 @@
     border-style:hidden;
     width:49px;
     transition: 0.3s;
+
 }
 .updates:hover{
     color:#d1d1d1;
@@ -92,7 +98,7 @@
     justify-content:center;
     background:rgba(0, 0, 0, 0.9);
     width: 100vw;
-    height:60vh;
+    height:2000px;
     left: 0;
 }
 .whitecutter{
@@ -102,6 +108,7 @@
     top:60px;
     left:30%;
     position:absolute;
+
 }
 .mainh1{
     color:white;
@@ -110,15 +117,15 @@
     font-weight:600;
 }
 .light{
-    background:rgba(51, 205, 199,.21);
+    background:rgba(51, 205, 199,.2);
     height:200px;
     width:200px;
     border-radius:286px;
     padding:0px;
     left:526px;
     position:relative;
+    filter:blur(50px);
     box-shadow: 0 0 1000px rgba(51, 205, 199,1);
-
 
 
 }
