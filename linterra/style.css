@@ -1,0 +1,495 @@
+/*
+COLORS
+patern dark
+#061A23
+#06373A
+#1F5F5B
+#159947
+patern light
+#184E77
+#1E6091
+#1A759F
+#168AAD
+#34A0A4
+#52B69A
+#76C893
+#99D98C
+
+*/
+
+*{
+    margin:0;
+    padding:0;
+    top:0;
+}
+.maincamera{
+    height:100%;
+    width:100%;
+}
+.mainblock{
+    display:block;
+}
+.header{
+    position:sticky;
+    height:85px;
+    top:0;
+    z-index:2;
+    background-color:#1A759F;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.logo{
+    position:absolute;
+    height:80px;
+    width:80px;
+    top:5px;
+    left:13%;
+}
+.linkheader1{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader1:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader1:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader1:hover{
+    color:#99D98C;
+}
+.linkheader2{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader2:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader2:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader2:hover{
+    color:#99D98C;
+}
+.linkheader3{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader3:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader3:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader3:hover{
+    color:#99D98C;
+}
+.linkheader4{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader4:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader4:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader4:hover{
+    color:#99D98C;
+}
+.linkheader5{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader5:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader5:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader5:hover{
+    color:#99D98C;
+}
+.linkheader6{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader6:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader6:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader6:hover{
+    color:#99D98C;
+}
+.linkheader7{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader7:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader7:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader7:hover{
+    color:#99D98C;
+}
+.linkheader8{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin:10px;
+    left:30%;
+    transition: 0.3s linear;
+}
+.linkheader8:after{
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #06373A; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s;
+}
+.linkheader8:hover:after{
+    content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; /* Высота линии */
+    background-color: #1F5F5B; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+.linkheader8:hover{
+    color:#99D98C;
+}
+
+.linkheader9{
+    position:relative;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+    text-decoration:none;
+    top:35px;
+    margin-left:4%;
+    left:30%;
+    transition: 0.4s linear;
+    padding:8px;
+    background-color:#5db3b6;
+    border-radius:10px;
+}
+
+.linkheader9:hover{
+    color:#b5e48c;
+    background-color:#34a0a4;
+}
+.emailimg{
+    width:20px;
+    height:20px;
+    position:relative;
+    top:5px;
+
+}
+.firsth1{
+    position:absolute;
+    top:33%;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size:45px;
+    left:9%;
+
+}
+.blockfirst h3{
+    position:absolute;
+    top:48%;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    left:9%;
+    line-height: 25px;
+}
+
+.buttonmore{
+    position:absolute;
+    top:60%;
+    left:9%;
+    text-decoration:none;
+    padding:15px;
+    background-color:#168aad;
+    border-radius:15px;
+    color:white;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    transition: 0.25s linear;
+
+}
+.buttonmore:hover{
+    background-color:#34a0a4;
+    color:#b5e48c;
+}
+.sectiontype{
+    display:block;
+    left:9%;
+}
+.sections{
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+
+}
+.sections img{
+    width:150px;
+    height:150px;
+
+}
+.techtype{
+    width:22%;
+    height:45%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #34a0a4;
+    padding:30px;
+    border-radius:20px;
+}
+.techtype p{
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.techtype a{
+    text-decoration:none;
+}
+.techtype h3{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:#52b69a;
+}
+.servicestype{
+    width:22%;
+    height:45%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #34a0a4;
+    padding:30px;
+    border-radius:20px;
+}
+.servicestype p{
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.servicestype a{
+    text-decoration:none;
+}
+.servicestype h3{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:#52b69a;
+}
+.potype{
+    width:22%;
+    height:45%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #34a0a4;
+    padding:30px;
+    border-radius:20px;
+}
+.potype p{
+    text-align: center;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.potype a{
+    text-decoration:none;
+}
+.potype h3{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:#52b69a;
+}
