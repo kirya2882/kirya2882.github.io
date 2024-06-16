@@ -25,6 +25,7 @@ patern light
 .maincamera{
     height:100%;
     width:100%;
+
 }
 .mainblock{
     display:block;
@@ -346,7 +347,7 @@ patern light
     margin-left:4%;
     left:30%;
     transition: 0.4s linear;
-    padding:8px;
+    padding:10px;
     background-color:#5db3b6;
     border-radius:10px;
 }
@@ -355,6 +356,7 @@ patern light
     color:#b5e48c;
     background-color:#34a0a4;
 }
+
 .emailimg{
     width:20px;
     height:20px;
@@ -362,6 +364,7 @@ patern light
     top:5px;
 
 }
+
 .firsth1{
     position:absolute;
     top:33%;
@@ -371,6 +374,7 @@ patern light
     font-style: italic;
     font-size:45px;
     left:9%;
+    width:68%;
 
 }
 .blockfirst h3{
@@ -381,6 +385,7 @@ patern light
     font-style: normal;
     left:9%;
     line-height: 25px;
+    width:75%;
 }
 
 .buttonmore{
@@ -492,4 +497,220 @@ patern light
     font-optical-sizing: auto;
     font-weight: 400;
     color:#52b69a;
+}
+.labels{
+    display:none;
+}
+ul{
+    display:none;
+}
+#burger-toggle{
+    display:none;
+}
+#burger-toggle:checked ~ ul {
+    left: 0;
+    right: 0;
+}
+
+.header_list li a {
+    font-size: 24px;
+    text-decoration:none;
+    color:white;
+}
+.header_list li{
+    list-style-type: none;
+    color:white;
+}
+
+
+
+
+@media all and (max-width: 1440px){
+    .logo{
+        left:10%;
+    }
+    .linkheader1{
+        left:25%;
+    }
+    .linkheader2{
+        left:25%;
+    }
+    .linkheader3{
+        left:25%;
+    }
+    .linkheader4{
+        left:25%;
+    }
+    .linkheader5{
+        left:25%;
+    }
+    .linkheader6{
+        left:25%;
+    }
+    .linkheader7{
+        left:25%;
+    }
+    .linkheader8{
+        left:25%;
+    }
+    .linkheader9{
+        left:25%;
+    }
+}
+@media all and (max-width: 1350px){
+    .logo{
+        left:5%;
+    }
+    .linkheader1{
+        left:18%;
+    }
+    .linkheader2{
+        left:18%;
+    }
+    .linkheader3{
+        left:18%;
+    }
+    .linkheader4{
+        left:18%;
+    }
+    .linkheader5{
+        left:18%;
+    }
+    .linkheader6{
+        left:18%;
+    }
+    .linkheader7{
+        left:18%;
+    }
+    .linkheader8{
+        left:18%;
+    }
+    .linkheader9{
+        left:18%;
+    }
+}
+/*@media all and (max-width: 869px){
+    .firsth1{
+        top:8%;
+    }
+    .blockfirst h3{
+        top:17%;
+    }
+    .buttonmore{
+        top:25%;
+    }
+}
+@media all and (min-width: 870px) and (max-width: 1230px){
+    .firsth1{
+        top:15%;
+    }
+    .blockfirst h3{
+        top:25%;
+    }
+    .buttonmore{
+        top:35%;
+    }
+}*/
+
+
+
+@media all and (max-width: 1230px){
+    .labels{
+        display:block;
+        position:absolute;
+        right:10%;
+        top:35%;
+        height:25px;
+        width:30px;
+
+    }
+    .labels::after,.labels::before,.labels span{
+        position:absolute;
+        width:100%;
+        height:3px;
+        background-color:white;
+        transition:.3s;
+    }
+    .labels::before{
+        content:"";
+        top:0;
+    }
+    .labels::after{
+        content:"";
+        bottom:0;
+    }
+    .labels span{
+        top:11px;
+    }
+
+    #burger-toggle:checked ~ .labels::after {
+        transform: rotate(45deg);
+        bottom:10px;
+    }
+    #burger-toggle:checked ~ .labels::before {
+        transform: rotate(-45deg);
+        top:12px;
+
+    }
+    #burger-toggle:checked ~ .labels span {
+        transform: rotate(-45deg);
+        top:12px;
+    }
+    .header_list{
+        display:flex;
+        position:fixed;
+        left:0;
+        right:0;
+        background-color:#168aad;
+        padding-top:12%;
+        padding-bottom:5%;
+        height:40%;
+        flex-direction:column;
+        align-items:center;
+        justify-content: space-around;
+        z-index:-1;
+        transition:0.5s;
+        left: 100vw;
+        right: -100vw;
+    }
+
+    .linkheader1{
+        display:none;
+    }
+    .linkheader2{
+        display:none;
+    }
+    .linkheader3{
+        display:none;
+    }
+    .linkheader4{
+        display:none;
+    }
+    .linkheader5{
+        display:none;
+    }
+    .linkheader6{
+        display:none;
+    }
+    .linkheader7{
+        display:none;
+    }
+    .linkheader8{
+        display:none;
+    }
+    .linkheader9{
+        display:none;
+    }
+}
+
+@media(max-height: 900px) and (max-width:500px){
+    .firsth1{
+        top:1%;
+    }
+    .blockfirst h3{
+        top:15%;
+    }
+    .buttonmore{
+        top:20%;
+    }
 }
