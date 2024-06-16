@@ -435,7 +435,8 @@ patern light
     flex-direction: column;
     align-items: center;
     border: 1px solid #34a0a4;
-    padding:30px;
+    padding:20px;
+    margin:20px;
     border-radius:20px;
 }
 .techtype p{
@@ -460,7 +461,8 @@ patern light
     flex-direction: column;
     align-items: center;
     border: 1px solid #34a0a4;
-    padding:30px;
+    padding:20px;
+    margin:20px;
     border-radius:20px;
 }
 .servicestype p{
@@ -485,7 +487,8 @@ patern light
     flex-direction: column;
     align-items: center;
     border: 1px solid #34a0a4;
-    padding:30px;
+    padding:20px;
+    margin:20px;
     border-radius:20px;
 }
 .potype p{
@@ -746,6 +749,15 @@ ul{
         top:80%;
         left:70%;
     }
+    .techtype{
+        padding:80px;
+    }
+    .servicestype{
+        padding:80px;
+    }
+    .potype{
+        padding:80px;
+    }
 }
 @media (max-width:510px){
     .blockfirst h3{
@@ -761,7 +773,16 @@ ul{
         width:60%;
     }
     .sectiontype img{
-        width:130px;
-        height:130px;
+        width:160px;
+        height:160px;
+    }
+    .techtype{
+        padding:80px;
+    }
+    .servicestype{
+        padding:80px;
+    }
+    .potype{
+        padding:80px;
     }
 }
