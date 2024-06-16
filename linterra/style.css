@@ -367,19 +367,23 @@ patern light
 
 .firsth1{
     position:absolute;
-    top:33%;
+    top:20%;
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: italic;
     font-size:45px;
     left:9%;
-    width:68%;
+    width:60%;
 
+}
+.blockfirst{
+    position:relative;
+    top:9%;
 }
 .blockfirst h3{
     position:absolute;
-    top:48%;
+    top:40%;
     font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -390,7 +394,7 @@ patern light
 
 .buttonmore{
     position:absolute;
-    top:60%;
+    top:55%;
     left:9%;
     text-decoration:none;
     padding:15px;
@@ -415,6 +419,7 @@ patern light
 .sections{
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding:30px;
 
 }
@@ -670,7 +675,7 @@ ul{
         z-index:-1;
         transition:0.5s;
         left: 100vw;
-        right: -100vw;
+        right: -200vw;
     }
 
     .linkheader1{
@@ -708,50 +713,55 @@ ul{
         top:15%;
     }
     .blockfirst h3{
-        top:30%;
+        top:40%;
+        width:60%;
     }
     .buttonmore{
-        top:40%;
+        top:65%;
     }
 }
 @media (min-width:675px) and (max-width: 839px){
     .firsth1{
-        top:8%;
+        top:9%;
     }
     .blockfirst h3{
-        top:25%;
+        top:55%;
     }
     .buttonmore{
-        top:35%;
+        top:85%;
     }
 }
-@media (min-width:446px) and (max-width:674px){
+@media (min-width:511px) and (max-width:674px){
     .firsth1{
         font-size:31px;
-        top:8%;
+        top:13%;
         width:60%;
     }
     .blockfirst h3{
-        top:18%;
-        font-size:13px;
+        top:50%;
+        font-size:15px;
         width:60%;
     }
     .buttonmore{
-        top:23%;
+        top:80%;
         left:70%;
     }
 }
-@media (max-width:445px){
+@media (max-width:510px){
     .blockfirst h3{
         display:none;
     }
     .buttonmore{
-        top:23%;
+        top:72%;
         left:70%;
     }
     .firsth1{
         font-size:31px;
         top:8%;
         width:60%;
+    }
+    .sectiontype img{
+        width:130px;
+        height:130px;
     }
 }
