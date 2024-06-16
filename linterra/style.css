@@ -599,19 +599,29 @@ ul{
     .buttonmore{
         top:25%;
     }
-}
-@media all and (min-width: 870px) and (max-width: 1230px){
+}*/
+@media all and (min-width: 850px) and (max-width: 1230px){
     .firsth1{
         top:15%;
     }
     .blockfirst h3{
-        top:25%;
+        top:30%;
     }
     .buttonmore{
-        top:35%;
+        top:40%;
     }
-}*/
-
+}
+@media all and (min-width: 300px) and (max-width: 850px){
+    .firsth1{
+        top:10%;
+    }
+    .blockfirst h3{
+        top:20%;
+    }
+    .buttonmore{
+        top:30%;
+    }
+}
 
 
 @media all and (max-width: 1230px){
@@ -703,14 +713,5 @@ ul{
     }
 }
 
-@media(max-height: 900px) and (max-width:500px){
-    .firsth1{
-        top:1%;
-    }
-    .blockfirst h3{
-        top:15%;
-    }
-    .buttonmore{
-        top:20%;
-    }
-}
+
+
