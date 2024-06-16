@@ -669,7 +669,7 @@ ul{
         left:0;
         right:0;
         background-color:#168aad;
-        padding-top:12%;
+        padding-top:15%;
         padding-bottom:5%;
         height:40%;
         flex-direction:column;
@@ -761,15 +761,19 @@ ul{
 }
 @media (max-width:510px){
     .blockfirst h3{
-        display:none;
+        font-size:12px;
+        line-height: 15px;
+        font-weight: 300;
     }
     .buttonmore{
-        top:72%;
+        top:75%;
         left:70%;
+        padding:8px;
+        border-radius:12px;
     }
     .firsth1{
-        font-size:31px;
-        top:8%;
+        font-size:19px;
+        top:7%;
         width:60%;
     }
     .sectiontype img{
@@ -777,12 +781,47 @@ ul{
         height:160px;
     }
     .techtype{
-        padding:80px;
+        padding:50px;
+        flex-direction: column;
     }
     .servicestype{
-        padding:80px;
+        padding:50px;
+        flex-direction: column;
     }
     .potype{
-        padding:80px;
+        padding:50px;
+        flex-direction: column;
+    }
+    .header{
+        height:50px;
+    }
+    .logo{
+        height:40px;
+        width:40px;
+    }
+    .labels{
+        height:20px;
+        width:25px;
+    }
+    .labels::after,.labels::before,.labels span{
+        height:2px;
+    }
+    .labels span{
+        top:9px;
+    }
+    #burger-toggle:checked ~ .labels::before {
+        top:9px;
+
+    }
+    #burger-toggle:checked ~ .labels span {
+        top:9px;
+    }
+    .header_list li a {
+        font-size: 17px;
+        text-decoration:none;
+        color:white;
+    }
+    .sections{
+        padding:10px;
     }
 }
