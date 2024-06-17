@@ -439,6 +439,9 @@ patern light
     margin:20px;
     border-radius:20px;
 }
+.techtype_content h3{
+    text-align: center;
+}
 .techtype_content{
     display:flex;
     flex-direction: column;
@@ -470,6 +473,9 @@ patern light
     margin:20px;
     border-radius:20px;
 }
+.servicestype_content h3{
+    text-align: center;
+}
 .servicestype_content{
     display:flex;
     flex-direction: column;
@@ -500,6 +506,9 @@ patern light
     padding:20px;
     margin:20px;
     border-radius:20px;
+}
+.potype_content h3{
+    text-align: center;
 }
 .potype_content{
     display:flex;
@@ -809,9 +818,7 @@ ul{
     .techtype_content{
         padding-left:15px;
     }
-    .techtype_content h3{
-        text-align: center;
-    }
+
     .servicestype{
         padding:0;
         flex-direction: row-reverse;
@@ -826,9 +833,6 @@ ul{
     .servicestype_content{
         padding-right:15px;
     }
-    .servicestype_content h3{
-        text-align: center;
-    }
     .potype{
         padding:0;
         flex-direction: row;
@@ -842,9 +846,6 @@ ul{
     }
     .potype_content{
         padding-left:15px;
-    }
-    .potype_content h3{
-        text-align: center;
     }
     .header{
         height:50px;
