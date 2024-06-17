@@ -787,7 +787,7 @@ ul{
     .blockfirst h3{
         font-size:12px;
         line-height: 15px;
-        font-weight: 300;
+        font-weight: 400;
     }
     .buttonmore{
         top:75%;
@@ -817,8 +817,11 @@ ul{
     }
     .techtype_content{
         padding-left:15px;
-    }
 
+    }
+    .techtype p{
+        font-size:14px;
+    }
     .servicestype{
         padding:0;
         flex-direction: row-reverse;
@@ -833,6 +836,9 @@ ul{
     .servicestype_content{
         padding-right:15px;
     }
+    .servicestype p{
+        font-size:14px;
+    }
     .potype{
         padding:0;
         flex-direction: row;
@@ -846,6 +852,9 @@ ul{
     }
     .potype_content{
         padding-left:15px;
+    }
+    .potype p{
+        font-size:14px;
     }
     .header{
         height:50px;
