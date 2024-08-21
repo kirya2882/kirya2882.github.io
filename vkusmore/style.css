@@ -351,7 +351,7 @@ ul{
     width:80%;
     margin:0 10% 0 10%;
     text-align:center;
-    font-weight: 200;
+    font-weight: 300;
 }
 .icraimg{
     width:85%;
@@ -376,7 +376,7 @@ ul{
     width:80%;
     margin:0 10% 0 10%;
     text-align:center;
-    font-weight: 200;
+    font-weight: 300;
 }
 .logistic{
     display:flex;
@@ -398,7 +398,7 @@ ul{
     width:80%;
     margin:0 10% 0 10%;
     text-align:center;
-    font-weight: 200;
+    font-weight: 300;
 }
 .logisticimg{
     width:85%;
@@ -411,6 +411,123 @@ ul{
     width:80%;
     margin:5% 0 3% 10%;
 }
+.contentproducts{
+    padding:2% 15% 7% 15%;
+    display:flex;
+    flex-direction:row;
+}
+.leftcontentproducts{
+    display:flex;
+    flex-direction:column;
+    width:45%;
+}
+.rightcontentproducts img{
+    max-width:100%;
+}
+.rightblockcontentproducts img{
+    width:100%;
+}
+.rightcontentproducts{
+    display:flex;
+    flex-direction:column;
+    width:45%;
+    margin-left:10%;
+}
+.blockcontentproducts{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    margin-bottom:7%;
+    margin-top:18%;
+}
+.rblockcontentproducts{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    margin-top:7%;
+    margin-bottom:18%;
+}
+.rightblockcontentproducts{
+    width:10%;
+}
+.leftblockcontentproducts{
+    width:80%;
+    margin-left:10%;
+}
+.leftblockcontentproducts h4{
+    font-weight: 300;
+    margin-top:4%;
+    margin-bottom:5%;
+}
+.leftblockcontentproducts a{
+    text-decoration:none;
+    color:#30bdf2;
+    transition: 0.2s linear;
+}
+.leftblockcontentproducts a:hover{
+    color:#5b9bd5;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    padding:0 10% 5% 10%;
+}
+footer{
+    background-color:#475864;
+    color:white;
+}
+.email{
+    text-decoration:none;
+    color:white;
+    transition: 0.2s linear;
+    font-weight:100;
+    font-size:15px;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+.phone{
+    text-decoration:none;
+    color:white;
+    transition: 0.2s linear;
+    font-weight:100;
+    font-size:15px;
+    padding-top:4%;
+    padding-bottom:4%;
+}
+footer h4{
+    font-weight:100;
+    font-size:15px;
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.email:hover{
+    color:#D0D0D0;
+}
+.phone:hover{
+    color:#D0D0D0;
+}
+.contacts{
+    width:20%;
+}
+footer img{
+    width:10%;
+    margin:5% 0 0 10%;
+}
+.aboutcompany{
+    width:20%;
+}
+.products{
+    width:20%;
+}
+.offices{
+    width:20%;
+}
+.rights{
+    width:20%;
+}
+
+
+
 
 
 
@@ -475,7 +592,7 @@ ul{
         left:0;
         right:0;
         background-color:white;
-        padding-top:20%;
+        padding-top:30%;
         padding-bottom:5%;
         height:40%;
         box-shadow: 10px 10px 20px grey;
@@ -545,6 +662,16 @@ ul{
     }
     .advantages{
         flex-direction:column;
+    }
+    .contentproducts{
+        flex-direction:column;
+    }
+    .leftcontentproducts{
+        width:100%;
+    }
+    .rightcontentproducts{
+        width:100%;
+        margin: 10% 0 0 0;
     }
     .leftadvantages{
         width:100%;
